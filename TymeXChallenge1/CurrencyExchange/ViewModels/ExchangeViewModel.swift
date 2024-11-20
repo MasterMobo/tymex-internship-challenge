@@ -13,6 +13,8 @@ class ExchangeViewModel {
 
     // Model
     var exchangeModel: ExchangeModel?
+    // Factory used to create the model
+    private let exchangeModelFactory: ExchangeModelFactory
     
     // View models
     // These handle the logic of sub-views
@@ -55,15 +57,13 @@ class ExchangeViewModel {
     // Used for faster and more accurate comparisons
     var sourceAmount: Double = 0
     var targetAmount: Double = 0
-    
-    // Factory used to create the models
-    private let exchangeModelFactory: ExchangeModelFactory
-        
+            
     // MARK: - Public Methods
     
     /// Default constructor
     ///
-    /// Uses default ExchangeModelFactory as the factory
+    /// Uses default ExchangeModelFactory as the factory.
+    /// Initializes other view models.
     convenience init() {
         self.init(exchangeModelFactory: ExchangeModelFactory())
     }
