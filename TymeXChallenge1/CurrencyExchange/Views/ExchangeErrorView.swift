@@ -20,7 +20,7 @@ struct ExchangeErrorView: View {
                 .ignoresSafeArea(.all)
             
             VStack(spacing: 20) {
-                errorVM.image!.resizable()
+                errorVM.image?.resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 50)
                     .foregroundStyle(.accent)
