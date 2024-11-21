@@ -2,7 +2,10 @@
 
 This is a submission to the TymeX Internship Online Test. Built by Bui Dang Khoa.
 
+## Table of Contents
+
 - [TymeX Internship Program 2024 - Round 2: Online Test - Mobile Intern](#tymex-internship-program-2024---round-2-online-test---mobile-intern)
+  - [Table of Contents](#table-of-contents)
   - [Challenge 1 - Currency Exchange App](#challenge-1---currency-exchange-app)
     - [Features](#features)
     - [Prerequisite](#prerequisite)
