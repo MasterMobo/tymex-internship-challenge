@@ -51,7 +51,7 @@ To run the application, press the play button in XCode.
 
 ### Testing
 
-Tu run the test suite, navigate to the Testing tab in Xcode. Then run the `CurrencyExchangeTests` suite.
+To run the test suite, navigate to the Testing tab in Xcode. Then run the `CurrencyExchangeTests` suite.
 
 You can also navigate to the `CurrencyExchangeTests` target and pick individual test to run.
 
